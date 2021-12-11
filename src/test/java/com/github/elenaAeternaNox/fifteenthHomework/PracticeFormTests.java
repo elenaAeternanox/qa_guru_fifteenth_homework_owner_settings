@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static com.github.elenaAeternaNox.fifteenthHomework.TestData.*;
 import static io.qameta.allure.Allure.step;
 
-public class PracticeFormTests {
+public class PracticeFormTests extends TestBase {
 
     private String birthdayCheck,
             listOfSubjects,

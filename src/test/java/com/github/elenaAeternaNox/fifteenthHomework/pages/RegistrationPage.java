@@ -4,7 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import com.github.elenaAeternaNox.fifteenthHomework.pages.components.CalendarComponent;
 import com.github.elenaAeternaNox.fifteenthHomework.pages.components.HobbyComponent;
 import com.github.elenaAeternaNox.fifteenthHomework.pages.components.SubjectComponent;
-import com.github.elenaAeternaNox.fifteenthHomework.webConfig.WebDriver;
+import com.github.elenaAeternaNox.fifteenthHomework.webConfig.WebDriverUtil;
 
 import java.io.File;
 import java.util.List;
@@ -40,7 +40,7 @@ public class RegistrationPage {
     public SubjectComponent subjects = new SubjectComponent();
     public HobbyComponent hobby = new HobbyComponent();
 
-    WebDriver webDriver = new WebDriver();
+    WebDriverUtil webDriver = new WebDriverUtil();
 
     // actions
     public RegistrationPage openPage() {
